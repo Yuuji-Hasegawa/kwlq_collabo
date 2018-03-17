@@ -1,0 +1,23 @@
+// フォント
+$font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Yu Gothic", YuGothic, Verdana, Meiryo, "M+ 1p", sans-serif;
+
+// コンテンツの最大幅
+$C_WIDTH: 1170px;
+
+// ブレイクポイント
+$BREAK_M: 600px;
+$BREAK_L: 800px;
+
+// カラー
+$base-color: #5F4B8B;
+
+$dark-color: adjust-hue(darken(saturate($base-color, 10%),15%),1deg);
+$light-color: adjust-hue(lighten(desaturate($base-color, 10%),15%),-1deg);
+
+$light-gray: #f2f2f2; // bg
+$dark-gray: #d6d6d6;  // border
+
+$black-gray:rgba(0,0,0,0.8);
+
+$text-color: #333;
+$text-color02: #555;
